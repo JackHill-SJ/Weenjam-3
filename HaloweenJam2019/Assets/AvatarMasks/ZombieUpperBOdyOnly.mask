@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZombieUpperBOdyOnly
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/SpineBase
+    m_Weight: 0
+  - m_Path: Armature/SpineBase/L.UpLeg
+    m_Weight: 0
+  - m_Path: Armature/SpineBase/L.UpLeg/L.DownLeg
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/L.UpLeg/L.DownLeg/L.DownLeg_end
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/R.UpLeg
+    m_Weight: 0
+  - m_Path: Armature/SpineBase/R.UpLeg/R.DownLeg
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/R.UpLeg/R.DownLeg/R.DownLeg_end
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/Head
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/Head/Head_end
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/L.shoulder
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/L.shoulder/L.arm
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/L.shoulder/L.arm/L.arm_end
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/R.shoulder
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/R.shoulder/R.arm
+    m_Weight: 1
+  - m_Path: Armature/SpineBase/SpineMid/SpineTop/R.shoulder/R.arm/R.arm_end
+    m_Weight: 1
+  - m_Path: RetopoBody.001
+    m_Weight: 1
+  - m_Path: RetopoBody.002
+    m_Weight: 1
+  - m_Path: RetopoBody.003
+    m_Weight: 1

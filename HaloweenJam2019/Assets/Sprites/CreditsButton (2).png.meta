@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 666fb8e9a87c36245a4f848d46a5d311
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1134421777946555280
+    second: CreditsButton (2)_0
+  - first:
+      213: 7564951264436821794
+    second: CreditsButton (2)_1
+  - first:
+      213: -4765260950033186116
+    second: CreditsButton (2)_2
+  - first:
+      213: -8388998661604025833
+    second: CreditsButton (2)_3
+  - first:
+      213: 2490271378205509603
+    second: CreditsButton (2)_4
+  - first:
+      213: 7850838859512403102
+    second: CreditsButton (2)_5
+  - first:
+      213: 2787242639375419113
+    second: CreditsButton (2)_6
+  - first:
+      213: -3714368325123241290
+    second: CreditsButton (2)_7
+  - first:
+      213: 3569214505957847453
+    second: CreditsButton (2)_8
+  - first:
+      213: -1285201904878605835
+    second: CreditsButton (2)_9
+  - first:
+      213: 7838838185197128984
+    second: CreditsButton (2)_10
+  - first:
+      213: 7737614790615653016
+    second: CreditsButton (2)_11
+  - first:
+      213: 2484963863880889977
+    second: CreditsButton (2)_12
+  - first:
+      213: 5716837548880632429
+    second: CreditsButton (2)_13
+  - first:
+      213: 5417513174953697419
+    second: CreditsButton (2)_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CreditsButton (2)_0
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 6126
+        width: 1305
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b5d49b4685ec442be83ac50f12a0fa
+      internalID: -1134421777946555280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_1
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 6126
+        width: 1308
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f96e23bce3c3543885794515341d6c
+      internalID: 7564951264436821794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_2
+      rect:
+        serializedVersion: 2
+        x: 4748
+        y: 6126
+        width: 1305
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd96fe7cdfe9aba4fb97b909d6c5f151
+      internalID: -4765260950033186116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 4688
+        width: 1305
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526d8a31c5165fd4fa03e944f89a4b20
+      internalID: -8388998661604025833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_4
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 4688
+        width: 1308
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0d2322478498c4695da2f6d69745b7
+      internalID: 2490271378205509603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_5
+      rect:
+        serializedVersion: 2
+        x: 4748
+        y: 4688
+        width: 1305
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef127467eca5c046b8ad91b27f2451c
+      internalID: 7850838859512403102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3247
+        width: 1305
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73917e23a6925a841a1ce9c5e75a9147
+      internalID: 2787242639375419113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_7
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 3247
+        width: 1308
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5fb8766b7171843ac222df2e3e8fb0
+      internalID: -3714368325123241290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_8
+      rect:
+        serializedVersion: 2
+        x: 4748
+        y: 3247
+        width: 1305
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586d96621b42b234d8305a2eed289512
+      internalID: 3569214505957847453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1809
+        width: 1305
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1817b52bd3a7ee640975d74b0077c865
+      internalID: -1285201904878605835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_10
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1809
+        width: 1308
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d5a96122476ce4cb3971f697c9cb48
+      internalID: 7838838185197128984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_11
+      rect:
+        serializedVersion: 2
+        x: 4748
+        y: 1809
+        width: 1305
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07fe3e887bf50d4094ae0650c0395c5
+      internalID: 7737614790615653016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_12
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 367
+        width: 1305
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2722e78a61c1ae34daf0950b8cb9b653
+      internalID: 2484963863880889977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_13
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 367
+        width: 1308
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c556765481e716648804135bebdd79f2
+      internalID: 5716837548880632429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton (2)_14
+      rect:
+        serializedVersion: 2
+        x: 4748
+        y: 367
+        width: 1305
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dbb6b3a2c3d314daa1f6156582a5d2
+      internalID: 5417513174953697419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e54826b71fe09e644a51cb32045d90de
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
