@@ -21,6 +21,7 @@ public class EnemyTrickle : MonoBehaviour
     [Header("Serialized Stuff")]
     [SerializeField] public List<float> playerDistance;
     [SerializeField] private float spawnRate;
+    [SerializeField] private List<GameObject> enemies;
 
     private void DistanceUpdate()
     {
@@ -70,6 +71,7 @@ public class EnemyTrickle : MonoBehaviour
 
             enemyCounter.zombieCount += 1;
             GameObject test = Instantiate(zombie, nodes[i].position + new Vector3(Random.Range(-spawnDis.x, spawnDis.x), 0f, Random.Range(-spawnDis.y, spawnDis.y)), transform.rotation);
+            enemies.Add(test);
 
             test.GetComponent<EnemyHealth>().enemyCounter = enemyCounter;
             test.GetComponent<EnemyFollowing>().target = player;
@@ -78,14 +80,21 @@ public class EnemyTrickle : MonoBehaviour
             hasSpawned[i] = false;
         }
     }
-    public void ClearNodes()
+    public bool HandleSceneSwitch()
     {
+        foreach (GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
         foreach (Transform node in nodes)
         {
-            node.gameObject.GetComponent<SpawnerNode>().DeleteNode();
+            //node.gameObject.GetComponent<SpawnerNode>().DeleteNode();
+            Destroy(node.gameObject);
         }
+        nodes.Clear();
         isSpawning.Clear();
         hasSpawned.Clear();
         playerDistance.Clear();
+        return true;
     }
 }

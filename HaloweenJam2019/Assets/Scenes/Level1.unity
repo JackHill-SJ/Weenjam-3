@@ -17327,7 +17327,7 @@ PrefabInstance:
     - target: {fileID: 6913681045897289565, guid: a4d75d4f1eaa65e4b898c1aed2176fc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 105.3
+      value: 91.13
       objectReference: {fileID: 0}
     - target: {fileID: 6913681045897289565, guid: a4d75d4f1eaa65e4b898c1aed2176fc2,
         type: 3}
@@ -17357,7 +17357,7 @@ PrefabInstance:
     - target: {fileID: 6913681045897289565, guid: a4d75d4f1eaa65e4b898c1aed2176fc2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6913681045897289565, guid: a4d75d4f1eaa65e4b898c1aed2176fc2,
         type: 3}
@@ -23941,16 +23941,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1884931419}
     m_Modifications:
-    - target: {fileID: 2274715596488973740, guid: a9cd92d756eb0d04aa6405f07a1686cf,
-        type: 3}
-      propertyPath: m_Name
-      value: Radio Tower (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274715596488973740, guid: a9cd92d756eb0d04aa6405f07a1686cf,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 2274715596488973741, guid: a9cd92d756eb0d04aa6405f07a1686cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24015,6 +24005,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2274715596488973740, guid: a9cd92d756eb0d04aa6405f07a1686cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Radio Tower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2274715596488973740, guid: a9cd92d756eb0d04aa6405f07a1686cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2274715595939409342, guid: a9cd92d756eb0d04aa6405f07a1686cf,
         type: 3}

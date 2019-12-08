@@ -307,6 +307,7 @@ MonoBehaviour:
   hasSpawned: 
   playerDistance: []
   spawnRate: 0.05
+  enemies: []
 --- !u!4 &825429962
 Transform:
   m_ObjectHideFlags: 0
@@ -911,6 +912,7 @@ MonoBehaviour:
   Spawnpoints: []
   player: {fileID: 0}
   SpawnRoomTerminal: {fileID: 3179168136500688440}
+  et: {fileID: 825429961}
   ActiveSceneNum: -1
 --- !u!4 &2147473258
 Transform:

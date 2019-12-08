@@ -63,11 +63,17 @@ public class Exit : MonoBehaviour
             activated = true;
             print("Sent Player to SpawnRoom");
             lvlManager.MovePlayerToSpawnRoom();
+            if (GameObject.FindGameObjectWithTag("EnemyTrickle").GetComponent<EnemyTrickle>().HandleSceneSwitch())
+            {
+                GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>().LoadRandomScene();
+            }
+            
         }
         Debug.Log("I Have Been Pressed");
         if (SpawnRoomTerminal)
         {
-            GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>().LoadRandomScene();
+            lvlManager.MovePlayerToMap();
+            
             isActive = false;
         }
 

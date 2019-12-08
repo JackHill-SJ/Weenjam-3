@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     public GameObject player;
     public Exit SpawnRoomTerminal;
 
+
     private bool FullyLoaded;
 
     //This is to track whether or not you have to unload a scene when loading a new one
@@ -18,13 +19,13 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        //LoadRandomScene();
+        LoadRandomScene();
     }
 
     public void LoadScene(int sceneIndex)
     {
         StartCoroutine(LoadSceneAsync(sceneIndex));
-        if(ActiveSceneNum != -1)
+        if (ActiveSceneNum != -1)
         {
             UnloadScene(sceneIndex);
         }
@@ -32,7 +33,7 @@ public class LevelManager : MonoBehaviour
     }
     public void UnloadScene(int sceneIndex)
     {
-        foreach(GameObject point in Spawnpoints)
+        foreach (GameObject point in Spawnpoints)
         {
             Destroy(point.transform.parent.gameObject);
         }
@@ -42,7 +43,7 @@ public class LevelManager : MonoBehaviour
     public void LoadRandomScene()
     {
         //4 & 5 are the only options as of december 2019
-        if(ActiveSceneNum != -1)
+        if (ActiveSceneNum != -1)
         {
             UnloadScene(ActiveSceneNum);
         }
@@ -72,7 +73,7 @@ public class LevelManager : MonoBehaviour
             yield return null;
         }
         //SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(sceneIndex));
-        MovePlayerToMap();
+        //MovePlayerToMap();
         //StartCoroutine(DelayedMapSpawn());
     }
 
