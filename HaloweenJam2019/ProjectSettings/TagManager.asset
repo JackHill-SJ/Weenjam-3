@@ -10,6 +10,8 @@ TagManager:
   - EventSystem
   - LevelManager
   - InteractText
+  - EnemyTrickle
+  - EnemyCounter
   layers:
   - Default
   - TransparentFX

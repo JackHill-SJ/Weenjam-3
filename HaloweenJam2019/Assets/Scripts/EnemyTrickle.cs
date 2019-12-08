@@ -4,26 +4,27 @@ using UnityEngine;
 
 public class EnemyTrickle : MonoBehaviour
 {
-    public Transform[] nodes;
+    public List<Transform> nodes;
     public GameObject player;
     public GameObject zombie;
     public EnemyCounter enemyCounter;
 
     [Header("Size Constraints")]
+    [Tooltip("min and max horizontal plane spawn distances")]
     public Vector2 initializeRateDis;
     public Vector2 spawnDis;
 
     [Header("Bools")]
-    public bool[] isSpawning;
-    public bool[] hasSpawned;
+    public List<bool> isSpawning;
+    public List<bool> hasSpawned;
 
     [Header("Serialized Stuff")]
-    [SerializeField] private float[] playerDistance;
+    [SerializeField] public List<float> playerDistance;
     [SerializeField] private float spawnRate;
 
     private void DistanceUpdate()
     {
-        for (int i = 0; i < nodes.Length; i += 1)
+        for (int i = 0; i < nodes.Count; i += 1)
         {
             playerDistance[i] = Mathf.Sqrt(Mathf.Pow(player.transform.position.x - nodes[i].position.x, 2) + Mathf.Pow(player.transform.position.y - nodes[i].position.y, 2) + Mathf.Pow(player.transform.position.z - nodes[i].position.z, 2));
             if (playerDistance[i] > initializeRateDis.x && playerDistance[i] < initializeRateDis.y)
@@ -40,7 +41,7 @@ public class EnemyTrickle : MonoBehaviour
 
     void Start()
     {
-        for(int i = 0; i < nodes.Length; i += 1)
+        for (int i = 0; i < nodes.Count; i += 1)
         {
             playerDistance[i] = Mathf.Sqrt(Mathf.Pow(player.transform.position.x - nodes[i].position.x, 2) + Mathf.Pow(player.transform.position.y - nodes[i].position.y, 2) + Mathf.Pow(player.transform.position.z - nodes[i].position.z, 2));
             isSpawning[i] = false;
@@ -51,9 +52,9 @@ public class EnemyTrickle : MonoBehaviour
     }
     void Update()
     {
-        for(int i = 0; i < nodes.Length; i += 1)
+        for (int i = 0; i < nodes.Count; i += 1)
         {
-            if(isSpawning[i] && enemyCounter.maxZombie > enemyCounter.zombieCount)
+            if (isSpawning[i] && enemyCounter.maxZombie > enemyCounter.zombieCount)
             {
                 StartCoroutine("Spawning", i);
             }
@@ -61,7 +62,8 @@ public class EnemyTrickle : MonoBehaviour
     }
     IEnumerator Spawning(int i)
     {
-        if(!hasSpawned[i])
+        print("Spawning");
+        if (!hasSpawned[i])
         {
             hasSpawned[i] = true;
             yield return new WaitForSeconds(Random.Range(0, spawnRate));
@@ -72,8 +74,18 @@ public class EnemyTrickle : MonoBehaviour
             test.GetComponent<EnemyHealth>().enemyCounter = enemyCounter;
             test.GetComponent<EnemyFollowing>().target = player;
 
-            yield return new WaitForSeconds(spawnRate * (nodes.Length - 2));
+            yield return new WaitForSeconds(spawnRate * (nodes.Count - 2));
             hasSpawned[i] = false;
         }
+    }
+    public void ClearNodes()
+    {
+        foreach (Transform node in nodes)
+        {
+            node.gameObject.GetComponent<SpawnerNode>().DeleteNode();
+        }
+        isSpawning.Clear();
+        hasSpawned.Clear();
+        playerDistance.Clear();
     }
 }
