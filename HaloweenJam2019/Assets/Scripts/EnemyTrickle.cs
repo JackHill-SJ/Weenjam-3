@@ -91,6 +91,7 @@ public class EnemyTrickle : MonoBehaviour
             //node.gameObject.GetComponent<SpawnerNode>().DeleteNode();
             Destroy(node.gameObject);
         }
+        GameObject.FindGameObjectWithTag("EnemyCounter").GetComponent<EnemyCounter>().zombieCount = 0;
         nodes.Clear();
         isSpawning.Clear();
         hasSpawned.Clear();

@@ -83,8 +83,10 @@ public class LevelManager : MonoBehaviour
         AsyncOperation operation = SceneManager.UnloadSceneAsync(sceneIndex);
         while (!operation.isDone)
         {
+            print("Loading");
             yield return null;
         }
+        print("Done");
     }
 
     IEnumerator DelayedMapSpawn()

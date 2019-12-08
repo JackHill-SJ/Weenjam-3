@@ -399,6 +399,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1314827870}
+    - target: {fileID: 5636737274047313496, guid: 3ddeb1fef68ae2b469b8ad04cece369a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ddeb1fef68ae2b469b8ad04cece369a, type: 3}
 --- !u!1 &1314827870 stripped
@@ -912,7 +917,6 @@ MonoBehaviour:
   Spawnpoints: []
   player: {fileID: 0}
   SpawnRoomTerminal: {fileID: 3179168136500688440}
-  et: {fileID: 825429961}
   ActiveSceneNum: -1
 --- !u!4 &2147473258
 Transform:
